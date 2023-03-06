@@ -47,6 +47,6 @@ if __name__ == "__main__":
     reachable_hosts1 = scan_network(network1)
     print("Scanning finished for {} - {} hosts found".format(network1, len(reachable_hosts1)))
 
-    # # Scan network2
-    # reachable_hosts2 = scan_network(network2)
-    # print("Scanning finished for {} - {} hosts found".format(network2, len(reachable_hosts2)))
+    # Scan network2
+    reachable_hosts2 = scan_network(network2)
+    print("Scanning finished for {} - {} hosts found".format(network2, len(reachable_hosts2)))
