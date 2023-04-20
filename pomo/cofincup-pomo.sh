@@ -6,7 +6,7 @@ read -p "Enter countdown time in minutes: " countdown_minutes
 # confirm countdown time with user
 read -p "Start a countdown of $countdown_minutes minutes? [Y/n]" confirm
 confirm=${confirm:-Y} # set default value to Y if user presses enter without entering a value
-echo "OK. Will notify you when time's up."
+echo "OK. I'll notify you when time's up."
 
 # exit script if user doesn't confirm countdown
 if [[ ! "$confirm" =~ ^[Yy]$ ]]; then
